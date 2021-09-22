@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Blog</title>
+</head>
+
+<body style="background-color: lightblue;">
+    <!--I used the w3schools tutorial to make a side navigation bar-->
+    <!--https://www.w3schools.com/howto/howto_js_sidenav.asp-->
+    <div id="Side-Bar"
+        style="height:100%; width:20%; position:fixed; z-index:1; top:0; left:0; background-color:darkgray; overflow-x:hidden; padding-top:60px;">
+        <a href="index.html"
+            style="padding:8px 8px 8px 32px; text-decoration: none; font-size: 25px; color:whitesmoke;display: block;">My
+            Blog</a>
+        <a href="techtips+css.html"
+            style="padding:8px 8px 8px 32px; text-decoration: none; font-size: 25px; color:whitesmoke;display: block;">My
+            Tech Tips (Now with css!)</a>
+        <a href="techtips-css.html"
+            style="padding:8px 8px 8px 32px; text-decoration: none; font-size: 25px; color:whitesmoke;display: block;">My
+            Tech Tips (old)</a>
+        <a href="about.html"
+            style="padding:8px 8px 8px 32px; text-decoration: none; font-size: 25px; color:whitesmoke;display: block;">About
+            Me</a>
+    </div>
+    <div id="Main-Body" style="padding-left: 20%;">
+        <div>
+            <h1 style="text-align:center;">HTML tips</h1>
+            <p>
+            <table style="margin-left: auto; margin-right:auto; border: 1px solid black;">
+                <tr style="background-color: red;
+    color: green; border: 1px solid black;">
+                    <th style="border: 1px solid black;">HTML Element</th>
+                    <th style="border: 1px solid black;">Example</th>
+                    <th style="border: 1px solid black;">Purpose</th>
+                    <th style="border: 1px solid black;">Display Type</th>
+                </tr>
+                <tr style="background-color: orchid;
+    color: yellow;border: 1px solid black;">
+                    <td style="border: 1px solid black;"><a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">
+                            Headers 1 - 6
+                        </a>
+                    </td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">&lt;h1&gt;</code>
+                    </td>
+                    <td style="border: 1px solid black;">Creates header - h1 being the biggest by default and h6 being
+                        the smallest by default</td>
+                    <td style="border: 1px solid black;">Block</td>
+                </tr>
+                <tr style="background-color: red;
+    color: green; border: 1px solid black;">
+                    <td style="border: 1px solid black;"><a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br">Line Break</a></td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">&lt;br&gt;</code>
+                    </td>
+                    <td style="border: 1px solid black;">Adds a newline to your text</td>
+                    <td style="border: 1px solid black;">Inline</td>
+                </tr>
+                <tr style="background-color: orchid;
+    color: yellow;border: 1px solid black;">
+                    <td style="border: 1px solid black;"><a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">Link</a></td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">&lt;link rel="stylesheet" type="text/css" href="/style.css"&gt;</code>
+                    </td>
+                    <td style="border: 1px solid black;">Adds a link to an external resource (Most commonly to a
+                        stylesheet)</td>
+                    <td style="border: 1px solid black;">Neither</td>
+                </tr>
+                <tr style="background-color: red;
+    color: green; border: 1px solid black;">
+                    <td style="border: 1px solid black;"><a
+                            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script">Script Tag</a></td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">&lt;script src="action.js"&gt;&lt;/script&gt;</code>
+                    </td>
+                    <td style="border: 1px solid black;">Used to add a script usually javscript to a webpage.<br>Can
+                        link to a file, or have script written between tags</td>
+                    <td style="border: 1px solid black;">Neither</td>
+                </tr>
+            </table>
+            </p>
+        </div>
+        <div>
+            <h1 style="text-align:center;">HTML Special Characters</h1>
+            <table style="margin-left: auto; margin-right:auto;border: 1px solid black;">
+                <tr style="background-color: orchid;
+    color: yellow;border: 1px solid black;">
+                    <th style="border: 1px solid black;">HTML Special Character</th>
+                    <th style="border: 1px solid black;">Character Literal</th>
+                </tr>
+                <tr style="background-color: red;
+    color: green; border: 1px solid black;">
+                    <td style="border: 1px solid black;">&lt;</td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">&amp;lt;</code>
+                    </td>
+                </tr>
+                <tr style="background-color: orchid;
+    color: yellow;border: 1px solid black;">
+                    <td style="border: 1px solid black;">&gt;</td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">&amp;gt;</code>
+                    </td>
+                </tr>
+                <tr style="background-color: red;
+    color: green; border: 1px solid black;">
+                    <td style="border: 1px solid black;">&amp;</td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">&amp;amp;</code>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1 style="text-align:center;">CSS Selectors</h1>
+            <table style="margin-left: auto; margin-right:auto;border: 1px solid black;">
+                <tr style="background-color: orchid;
+    color: yellow;border: 1px solid black;">
+                    <th style="border: 1px solid black;">Selector</th>
+                    <th style="border: 1px solid black;">Use</th>
+                    <th style="border: 1px solid black;">Example</th>
+                </tr>
+                <tr style="background-color: red;
+    color: green; border: 1px solid black;">
+                    <td style="border: 1px solid black;">Element Selector</td>
+                    <td style="border: 1px solid black;">Apply styling to all given elements</td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">img { /* apply style to all img tags */ }</code>
+                    </td>
+                </tr>
+                <tr style="background-color: orchid;
+    color: yellow;border: 1px solid black;">
+                    <td style="border: 1px solid black;">Class Selector</td>
+                    <td style="border: 1px solid black;">Select all elements assigned to a given class<br>
+                        By using the <code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">class=""</code>
+                        attribute</td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">.Class { /* applies to all elements with class="Class */ }</code>
+                    </td>
+                </tr>
+                <tr style="background-color: green;
+    color: red; border: 1px solid black;">
+                    <td style="border: 1px solid black;">Id Selector</td>
+                    <td style="border: 1px solid black;">Select the element with the assigned id<br>
+                        By using the <code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">id=""</code>
+                        attribute</td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">#Title { /* will affect only the element with the id of title */ }</code>
+                    </td>
+                </tr>
+                <tr style="background-color: red;
+    color: green; border: 1px solid black;">
+                    <td style="border: 1px solid black;"><a
+                            href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators">Descendant
+                            Combiner</a></td>
+                    <td style="border: 1px solid black;">Select an element that is nested inside another element, class,
+                        or id</td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">
+                            .article p {
+                                /* style only &lt;p&gt; tags that are nested inside of elements of class "article" */
+                            }
+                        </code></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1 style="text-align:center;">CSS Properties</h1>
+            <table style="margin-left: auto; margin-right:auto;border: 1px solid black;">
+                <tr style="background-color: yellow;
+    color: blue; border: 1px solid black;">
+                    <th style="border: 1px solid black;">Property</th>
+                    <th style="border: 1px solid black;">Use</th>
+                    <th style="border: 1px solid black;">Example Value</th>
+                </tr>
+                <tr style="background-color: red;
+    color: green; border: 1px solid black;">
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">border</code>
+                    </td>
+                    <td style="border: 1px solid black;">Set the border style of an element <code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">[width] [style] [color]</code>
+                    </td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">1px solid black</code>
+                    </td>
+                </tr>
+                <tr style="background-color: orchid;
+    color: yellow;border: 1px solid black;">
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">background-color</code>
+                    </td>
+                    <td style="border: 1px solid black;">Set the background color of an element</td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">white</code><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">rgb(255,128, 128)</code>
+                    </td>
+                </tr>
+                <tr style="background-color: orange; color: olivedrab; border:1px solid black;">
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">font-weight</code>
+                    </td>
+                    <td style="border: 1px solid black;">Set the thickness/boldness level of the font</td>
+                    <td style="border: 1px solid black;"><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">bold</code><code
+                            style="background-color: lightgray; border: 1px solid red; border-radius: 5px; padding: 1px 1px 1px 1px;">500</code>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

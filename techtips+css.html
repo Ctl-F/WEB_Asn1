@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>TechTips</title>
+</head>
+
+<body>
+    <!--I used the w3schools tutorial to make a side navigation bar-->
+    <!--https://www.w3schools.com/howto/howto_js_sidenav.asp-->
+    <div id="Side-Bar">
+        <a href="index.html">My Blog</a>
+        <a href="techtips+css.html">My Tech Tips (Now with css!)</a>
+        <a href="techtips-css.html">My Tech Tips (old)</a>
+        <a href="about.html">About Me</a>
+    </div>
+    <div id="Main-Body">
+        <div>
+            <h1>HTML tips</h1>
+            <p>
+            <table class="TableCenter">
+                <tr>
+                    <th>HTML Element</th>
+                    <th>Example</th>
+                    <th>Purpose</th>
+                    <th>Display Type</th>
+                </tr>
+                <tr>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements">
+                            Headers 1 - 6
+                        </a>
+                    </td>
+                    <td><code>&lt;h1&gt;</code></td>
+                    <td>Creates header - h1 being the biggest by default and h6 being the smallest by default</td>
+                    <td>Block</td>
+                </tr>
+                <tr>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br">Line Break</a></td>
+                    <td><code>&lt;br&gt;</code></td>
+                    <td>Adds a newline to your text</td>
+                    <td>Inline</td>
+                </tr>
+                <tr>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">Link</a></td>
+                    <td><code>&lt;link rel="stylesheet" type="text/css" href="/style.css"&gt;</code></td>
+                    <td>Adds a link to an external resource (Most commonly to a stylesheet)</td>
+                    <td>Neither</td>
+                </tr>
+                <tr>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script">Script Tag</a></td>
+                    <td><code>&lt;script src="action.js"&gt;&lt;/script&gt;</code></td>
+                    <td>Used to add a script usually javscript to a webpage.<br>Can link to a file, or have script
+                        written between tags</td>
+                    <td>Neither</td>
+                </tr>
+            </table>
+            </p>
+        </div>
+        <div>
+            <h1>HTML Special Characters</h1>
+            <table class="TableCenter">
+                <tr>
+                    <th>HTML Special Character</th>
+                    <th>Character Literal</th>
+                </tr>
+                <tr>
+                    <td>&lt;</td>
+                    <td><code>&amp;lt;</code></td>
+                </tr>
+                <tr>
+                    <td>&gt;</td>
+                    <td><code>&amp;gt;</code></td>
+                </tr>
+                <tr>
+                    <td>&amp;</td>
+                    <td><code>&amp;amp;</code></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1>CSS Selectors</h1>
+            <table class="TableCenter">
+                <tr>
+                    <th>Selector</th>
+                    <th>Use</th>
+                    <th>Example</th>
+                </tr>
+                <tr>
+                    <td>Element Selector</td>
+                    <td>Apply styling to all given elements</td>
+                    <td><code>img { /* apply style to all img tags */ }</code></td>
+                </tr>
+                <tr>
+                    <td>Class Selector</td>
+                    <td>Select all elements assigned to a given class<br>
+                        By using the <code>class=""</code> attribute</td>
+                    <td><code>.Class { /* applies to all elements with class="Class */ }</code></td>
+                </tr>
+                <tr>
+                    <td>Id Selector</td>
+                    <td>Select the element with the assigned id<br>
+                        By using the <code>id=""</code> attribute</td>
+                    <td><code>#Title { /* will affect only the element with the id of title */ }</code></td>
+                </tr>
+                <tr>
+                    <td><a
+                            href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators">Descendant
+                            Combiner</a></td>
+                    <td>Select an element that is nested inside another element, class, or id</td>
+                    <td><code>
+                            .article p {
+                                /* style only &lt;p&gt; tags that are nested inside of elements of class "article" */
+                            }
+                        </code></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1>CSS Properties</h1>
+            <table class="TableCenter">
+                <tr>
+                    <th>Property</th>
+                    <th>Use</th>
+                    <th>Example Value</th>
+                </tr>
+                <tr>
+                    <td><code>border</code></td>
+                    <td>Set the border style of an element <code>[width] [style] [color]</code></td>
+                    <td><code>1px solid black</code></td>
+                </tr>
+                <tr>
+                    <td><code>background-color</code></td>
+                    <td>Set the background color of an element</td>
+                    <td><code>white</code><code>rgb(255,128, 128)</code></td>
+                </tr>
+                <tr>
+                    <td><code>font-weight</code></td>
+                    <td>Set the thickness/boldness level of the font</td>
+                    <td><code>bold</code><code>500</code></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

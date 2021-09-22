@@ -1,0 +1,126 @@
+/*
+<!--I used the w3schools tutorial to make a side navigation bar-->
+<!--https://www.w3schools.com/howto/howto_js_sidenav.asp-->
+*/
+
+#Side-Bar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkgray;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+#Side-Bar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    display: block;
+}
+
+body {
+    background-color: lightblue;
+}
+
+#Main-Body {
+    padding-left: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Post {
+    border-radius: 15px;
+    background-color: darkgray;
+    border: none;
+    color: whitesmoke;
+}
+
+.Post h3 {
+    text-align: center;
+}
+
+.Post p {
+    text-align: justify;
+}
+
+.Date {
+    font-weight: bold;
+    font-size: 10pt;
+    text-align: left;
+    padding-top: 12px;
+    padding-right: 20px;
+    float: left;
+}
+
+.Author {
+    font-weight: 600;
+    font-size: 10pt;
+    float: left;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.Thumbnail {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+#Profile-Picture {
+    width: 512px;
+    height: 512px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Profile-Content h2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.BlogImage {
+    width: 75%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Main-Body table.TableCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TableCenter tr:nth-child(even){
+    background-color: red;
+    color: green;
+}
+
+.TableCenter tr:nth-child(odd){
+    background-color: orchid;
+    color: yellow;
+}
+
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+code {
+    background-color: lightgray;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 1px 1px 1px 1px;
+}
